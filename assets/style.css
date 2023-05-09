@@ -1,0 +1,68 @@
+/* Reset default margin and padding for body */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Center the logo and selection forms in the header */
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: #f0f0f0;
+}
+
+.logo {
+    flex: 1;
+    text-align: center;
+}
+
+.selection-forms {
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* Style the country and currency selection forms */
+form {
+    margin: 0;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+select {
+    width: 150px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+/* Style the option container */
+.option-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.option {
+    flex: 1 0 25%;
+    padding: 10px;
+    text-align: center;
+}
+
+.option a {
+    text-decoration: none;
+    color: #000;
+}
+
+.option img {
+    width: 100%;
+    max
